@@ -1,0 +1,14 @@
+ .adaptive::after{
+content: "big screen";
+height: 300px;
+width: 300px;
+background: black;
+color: white;
+display: block;
+ }
+
+ @media (orientation: portrait){
+    body{
+        background: #1eff00;
+    }
+ }

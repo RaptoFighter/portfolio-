@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(51, 255, 0, 0.034);
+}
+
+.menu{
+    background: linear-gradient(to left, blue, red);
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.minu{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+color: aliceblue;
+}
+
+
+body{
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 21, 255));
+ }
+ 
+  
+ a{
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+ }
+ 
+ .menu a:hover{
+     color: green;
+     
+ }
+
+ 
+ 
