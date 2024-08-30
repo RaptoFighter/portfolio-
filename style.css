@@ -13,6 +13,84 @@ html, body{
   display: flex;
     justify-content: space-around;
 }
+
+
+.greatWebsite{
+  width: 1000px;
+  background-color: #fff;
+  padding: 20px;
+margin: 20px;
+}
+
+a{
+  color: black;
+}
+
+button{
+  width: 125px;
+  height: 30px;
+  margin-top: 14px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.img-1{
+  width: 500px;
+  position: relative;
+  top: 25px;
+  left: 50px;
+  z-index: 2;
+}
+
+.img-2{
+  width: 350px;
+  position: relative;
+  left: 330px;
+  top: 85px;
+  z-index: 1;
+}
+
+.orang{
+  width: 420px;
+  height: 500px;
+  background-color: orange;
+  position: relative;
+  left: 550px;
+  bottom: 450px;
+
+}
+
+
+.text-2{
+  margin-top: -400px;
+  font-size: 5em;
+}
+
+.text-3{
+  width: 600px;
+  font-size: 2em;
+}
+
+.conteiner-2{
+  margin-top: 25px;
+  background-color: slategray;
+  padding: 20px;
+  height: 350px; 
+ width: 500px;
+ z-index: 2;
+ position: relative;
+}
+
+.img-3{
+  position: relative;
+  bottom: 500px;
+  left: 320px;
+  width: 500px;
+  z-index: 1;
+}
+
 @media ( max-width: 479px) {
  
     .conteiner {
