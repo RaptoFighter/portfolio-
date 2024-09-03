@@ -15,7 +15,7 @@ html, body{
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) and ( min-width: 480px ) {
   .greatWebsite{
     width: 1000px;
     background-color: #fff;
